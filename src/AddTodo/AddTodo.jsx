@@ -36,7 +36,7 @@ function AddTodo({ colors, onAddTodo }) {
     } else {
       setLoadedTodo(true);
 
-      fetch('http://localhost:4000/lists', {
+      fetch('http://localhost:4000/list', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
